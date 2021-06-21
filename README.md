@@ -10,5 +10,7 @@ In the beginner.vim file you will have access to arrow keys and access to the mo
 
 ## Hardcore.vim
 In the hardcore.vim file you will not have access to the mouse, Arrow keys, Page-Up/Down keys, and Home/End keys.
+
 This is how Vim should be used.
+
 If you are a beginner I suggest working up to hardcore.vim.
