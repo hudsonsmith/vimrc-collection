@@ -1,9 +1,6 @@
 # vimrc-collection
 A collection of .vimrc files for all levels of experience.
 
-### Files
----
-
 ### Beginner.vim
 In the beginner.vim file you will have access to arrow keys and access to the mouse.
 
