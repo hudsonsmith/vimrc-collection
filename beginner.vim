@@ -2,6 +2,20 @@
 " Defaults
 " ========
 
+" Use the mouse.
+set mouse=a
+
+" Add Python Pep-8 standards.
+au BufNewFile, BufRead *.py
+    \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
+    \ set textwidth=79 |
+    \ set wrapmargin=2
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix
+
 " Show extra whitespace at the end of the line.
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
@@ -50,6 +64,7 @@ let g:NERDTreeAutoDeleteBuffer=1
 let g:NERDTreeQuitOnOpen=0
 
 " Set up the project drawer.
+" Credit https://shapeshed.com/vim-netrw/
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
